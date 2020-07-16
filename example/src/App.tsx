@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'first-try'
+import { ColoredHeadingOne, ColoredHeadingTwo } from 'first-try'
 import 'first-try/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <ColoredHeadingOne color='blue' text='Create React Library Example 😄' />
+      <ColoredHeadingTwo color='orange' text='LOL BONER' />
+    </>
+  )
 }
 
 export default App
