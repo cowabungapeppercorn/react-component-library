@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ColoredHeadingOne, ColoredHeadingTwo } from 'first-try'
+import { ColoredHeadingOne, ColoredHeadingTwo, MuiHeader } from 'first-try'
 import 'first-try/dist/index.css'
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <>
       <ColoredHeadingOne color='blue' text='Create React Library Example 😄' />
       <ColoredHeadingTwo color='orange' text='LOL BONER' />
+      <MuiHeader text='MUI HEADER' />
     </>
   )
 }
